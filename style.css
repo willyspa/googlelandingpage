@@ -4,6 +4,9 @@ html{
 a{
   padding:0px 10px 0px 0px
 }
+a:link{
+  text-decoration: none;
+}
 
 header{
   display:flex;
@@ -27,11 +30,19 @@ ul {
     padding:5px 15px 0px 0px;
 }
 
+.conex_bouton{
+  background-color: #007BFF;
+   Color:white;
+   border-radius: 5px;
+   text-decoration: none;
+   margin-top: -15px;
+}
+
 .mere{
   display:flex;
   justify-content: center;
   align-items: center;
-  height: 800px;
+  height: 750px;
 }
 
 
@@ -40,7 +51,7 @@ ul {
    flex-direction:column;
    align-content: center;
    align-self: center;
-   border: 1px solid black;
+   border: 0px solid black;
    width: 550px;
 
 }
@@ -53,7 +64,7 @@ ul {
   flex:display;
   align-self:center;
   padding-bottom: 10px;
-  border: solid 1px red;
+  border: solid 0px red;
 }
 
 .barre_de_recherche {
@@ -76,11 +87,15 @@ ul {
 .twins_twins {
   display: flex;
   align-self: center;
-  padding: 15px 15px 15px 15px;
+
 }
 
 }
 .element:nt
+
+input{
+  margin-right: 15px;
+}
 
 footer {
   background-color: #f2f2f2;
@@ -94,7 +109,7 @@ footer {
 
 .barre_footer {
   padding-left: 43px;
-  
+
 }
 .barre_footer_gauche{
   width:50%;
