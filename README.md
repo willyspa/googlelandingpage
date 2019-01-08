@@ -1,2 +1,3 @@
 # googlelandingpage
-google landing page
+exercice THP semaine 1/ Mardi
+reproduire la page d'accueil de google 
