@@ -1,14 +1,18 @@
-html{
+html {
   font-family: arial, sans-serif;
 }
-a{
+a {
   padding:0px 10px 0px 0px
 }
 a:link{
   text-decoration: none;
 }
 
-header{
+a:hover{
+  text-decoration: underline;
+}
+
+header {
   display:flex;
   justify-content: flex-end;
 }
@@ -19,15 +23,6 @@ ul {
 }
 .Gmail{
   padding:5px 15px 0px 0px;
-}
-.images{
-  padding:5px 15px 0px 0px;
-}
-.Icon_grille{
-    padding:5px 15px 0px 0px;
-}
-.connexion{
-    padding:5px 15px 0px 0px;
 }
 
 .conex_bouton{
