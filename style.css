@@ -1,0 +1,72 @@
+html{
+  font-family: arial, sans-serif;
+}
+/*a{
+  padding:0px 10px 0px 10px
+}*/
+header{
+  display:flex;
+  justify-content: flex-end;
+}
+.Gmail{
+  padding:5px 15px 0px 0px;
+}
+.images{
+  padding:5px 15px 0px 0px;
+}
+.Icon_grille{
+    padding:5px 15px 0px 0px;
+}
+.connexion{
+    padding:5px 15px 0px 0px;
+}
+
+.mere{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+  border:1px red solid;
+}
+
+
+.element:nth-child(menu_recherche){
+  display:flex;
+ flex-direction:column;
+   align-content: center;
+   align-self: center;
+
+}
+.Google_img{
+  flex:display;
+  align-self:center;
+}
+.barre{
+  flex:display;
+  align-self:center;
+}
+
+footer {
+  background-color: #f2f2f2;
+
+}
+.alignerfooter{
+  display:flex;
+  justify-content: space-between;
+}
+
+.barre_footer_gauche{
+  width:50%;
+  border-top: 1px black solid;
+
+
+
+}
+.barre_footer_droite{
+  width: 50%;
+  display:flex;
+  justify-content: flex-end;
+  border-top: 1px black solid;
+
+
+}
