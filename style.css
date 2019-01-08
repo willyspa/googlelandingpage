@@ -1,5 +1,6 @@
 html {
   font-family: arial, sans-serif;
+  font-color:black;
 }
 a {
   padding:0px 10px 0px 0px
@@ -20,7 +21,9 @@ header {
 ul {
   display: flex;
   list-style-type: none;
+
 }
+
 .Gmail{
   padding:5px 15px 0px 0px;
 }
