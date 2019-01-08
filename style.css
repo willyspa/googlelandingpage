@@ -1,12 +1,17 @@
 html{
   font-family: arial, sans-serif;
 }
-/*a{
-  padding:0px 10px 0px 10px
-}*/
+a{
+  padding:0px 10px 0px 0px
+}
 header{
   display:flex;
   justify-content: flex-end;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
 }
 .Gmail{
   padding:5px 15px 0px 0px;
@@ -31,8 +36,8 @@ header{
 
 
 .element:nth-child(menu_recherche){
-  display:flex;
- flex-direction:column;
+   display:flex;
+   flex-direction:column;
    align-content: center;
    align-self: center;
 
@@ -44,21 +49,23 @@ header{
 .barre{
   flex:display;
   align-self:center;
+
 }
 
 footer {
   background-color: #f2f2f2;
+  border-top: 1px solid rgba(0, 0, 0, 0.54);
 
 }
 .alignerfooter{
   display:flex;
-  justify-content: space-between;
+  /*justify-content: space-between;*/
 }
 
 .barre_footer_gauche{
   width:50%;
-  border-top: 1px black solid;
-
+  border-top: 1px rgba(0, 0, 0, 0.54) solid;
+  padding-top: 10px
 
 
 }
@@ -66,7 +73,7 @@ footer {
   width: 50%;
   display:flex;
   justify-content: flex-end;
-  border-top: 1px black solid;
-
+  border-top: 1px rgba(0, 0, 0, 0.54) solid;
+  padding-top: 10px
 
 }
